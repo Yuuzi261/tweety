@@ -1,5 +1,5 @@
 # tweety
-Reverse Engineered Twitter Frontend API.
+Reverse Engineered Twitter Frontend API. (Still Maintained)
 
 [![Downloads](https://static.pepy.tech/personalized-badge/tweety-ns?period=total&units=international_system&left_color=orange&right_color=blue&left_text=Downloads)](https://pepy.tech/project/tweety-ns) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/mahrtayyab/tweety)
 
@@ -15,6 +15,22 @@ pip install tweety-ns
 ```bash
 pip install https://github.com/mahrtayyab/tweety/archive/main.zip --upgrade 
 ```
+
+## 💖 Sponsors
+
+<a href="https://www.swiftproxy.net/?ref=tweety">
+  <img src="https://mahrtayyab.github.io/swift.png" alt="Swiftproxy" width="640">
+</a>
+
+### **[Swiftproxy](https://www.swiftproxy.net/?ref=tweety)**
+> Premium residential proxies for X (Twitter) automation, web scraping, and browser automation. Access 80M+ residential IPs across 190+ countries with rotating and sticky sessions, non-expiring traffic, and support for HTTP, HTTPS, and SOCKS5. 
+
+> * 🎁 **Free Trial Available**
+> * 🏷️ **10% OFF** with coupon code: `PROXY90`
+
+<br clear="left"/>
+
+---
 
 ## A Quick Example:
 ```python
