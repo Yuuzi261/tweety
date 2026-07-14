@@ -16,7 +16,7 @@ from .types import User
 from .types.n_types import GenericError
 from .utils import custom_json, GUEST_TOKEN_REGEX, get_random_string, MIGRATION_REGEX, Warn
 from .builder import UrlBuilder
-from .transaction import TransactionGenerator
+from .transaction import TransactionGenerator, find_on_demand_file
 from . import constants
 
 httpx.Response.json = custom_json
@@ -285,6 +285,16 @@ class Request:
                 home_page = bs4.BeautifulSoup(response.content, 'lxml')
         except Exception as twitter_home_error:
             raise ValueError(f"Unable to get Twitter Home Page : {str(twitter_home_error)}")
+
+        if home_page and not find_on_demand_file(str(home_page)):
+            response = await self._session.request(
+                method="GET",
+                url="https://x.com/home",
+                headers=headers,
+            )
+            if response.status_code in range(200, 300):
+                home_page = bs4.BeautifulSoup(response.content, 'lxml')
+
         return home_page
 
     async def _get_guest_token(self):
