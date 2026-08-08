@@ -16,20 +16,6 @@ pip install tweety-ns
 pip install https://github.com/mahrtayyab/tweety/archive/main.zip --upgrade 
 ```
 
-## 💖 Sponsors
-
-<a href="https://www.swiftproxy.net/?ref=tweety">
-  <img src="https://mahrtayyab.github.io/swift.png" alt="Swiftproxy" width="640">
-</a>
-
-### **[Swiftproxy](https://www.swiftproxy.net/?ref=tweety)**
-> Premium residential proxies for X (Twitter) automation, web scraping, and browser automation. Access 80M+ residential IPs across 190+ countries with rotating and sticky sessions, non-expiring traffic, and support for HTTP, HTTPS, and SOCKS5. 
-
-> * 🎁 **Free Trial Available**
-> * 🏷️ **10% OFF** with coupon code: `PROXY90`
-
-<br clear="left"/>
-
 ---
 
 ## A Quick Example:
