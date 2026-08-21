@@ -1,6 +1,16 @@
 # tweety
 Reverse Engineered Twitter Frontend API. (Still Maintained)
 
+> **Important Maintenance & Temporary Service Notice**
+> 
+> Due to work commitments, updates to **tweety** are currently too slow. 
+> 
+> If you need a fully working, stable solution for `logging in to you Twitter Account and Get Cookies` right now, you can use the hosted service built for this purpose:
+> 🌐 **[XAuth Web Service](https://www.77kays.xyz/xauth/ui/)** *(Note: This is a paid solution)*
+> 
+> **Want to speed up the open-source maintenance process?**  
+> Consider supporting the project on ☕ **[Buy Me a Coffee](https://buymeacoffee.com/mahrtayyab)** to help prioritize updates!
+
 [![Downloads](https://static.pepy.tech/personalized-badge/tweety-ns?period=total&units=international_system&left_color=orange&right_color=blue&left_text=Downloads)](https://pepy.tech/project/tweety-ns) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/mahrtayyab/tweety)
 
 ## Installation: 
@@ -40,6 +50,7 @@ pip install https://github.com/mahrtayyab/tweety/archive/main.zip --upgrade
     </td>
   </tr>
 </table>
+
 
 ## A Quick Example:
 ```python
