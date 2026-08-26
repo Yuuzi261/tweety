@@ -27,29 +27,6 @@ pip install https://github.com/mahrtayyab/tweety/archive/main.zip --upgrade
 ```
 
 ---
-## 💖 Sponsors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://www.coreclaw.com/?utm_source=github&utm_medium=referral&utm_campaign=x.&utm_term=&utm_id=x" target="_blank">
-        <img src="https://mahrtayyab.github.io/coreclaw.jpeg" alt="CoreClaw" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3><a href="https://www.coreclaw.com/?utm_source=github&utm_medium=referral&utm_campaign=x.&utm_term=&utm_id=x">CoreClaw</a> — Scraping Tool for Developers</h3>
-      <p>Turns Twitter, Amazon, TikTok, Google Maps, Instagram & 100+ more sites into clean, structured data.</p>
-      <p>It's ready for your leads, dashboards, or API. No maintenance. No broken scrapers. Just clean data, on demand.</p>
-      <p>
-        <a href="https://www.coreclaw.com/?utm_source=github&utm_medium=referral&utm_campaign=x.&utm_term=&utm_id=x">
-          👉 <b>Start Free Trial on CoreClaw</b>
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
 
 
 ## A Quick Example:
