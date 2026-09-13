@@ -5,9 +5,6 @@ Reverse Engineered Twitter Frontend API. (Still Maintained)
 > 
 > Due to work commitments, updates to **tweety** are currently too slow. 
 > 
-> If you need a fully working, stable solution for `logging in to you Twitter Account and Get Cookies` right now, you can use the hosted service built for this purpose:
-> 🌐 **[XAuth Web Service](https://www.77kays.xyz/xauth/ui/)** *(Note: This is a paid solution)*
-> 
 > **Want to speed up the open-source maintenance process?**  
 > Consider supporting the project on ☕ **[Buy Me a Coffee](https://buymeacoffee.com/mahrtayyab)** to help prioritize updates!
 
