@@ -116,22 +116,23 @@ class AuthMethods:
         return await self.connect()
 
     async def load_auth_token(self, auth_token):
-        URL = "https://business.x.com/en"
+        URL = "https://x.com"
         temp_cookie = {"auth_token": auth_token}
         temp_headers = {'authorization': constants.DEFAULT_BEARER_TOKEN}
         params = {'_': int(time.time() * 1000)}
         res = await self.request.session.get(URL, params=params, cookies=temp_cookie)
-        ct0 = res.cookies.get('ct0')
+        ct0 = res.cookies.get('ct0') or self.request.session.cookies.get('ct0')
 
         if not ct0:
             params = {'_': int(time.time() * 1000)}
             res = await self.request.session.get(URL, params=params, cookies=temp_cookie, headers=temp_headers)
-            ct0 = res.cookies.get('ct0')
+            ct0 = res.cookies.get('ct0') or self.request.session.cookies.get('ct0')
 
         if not ct0:
             raise DeniedLogin(response=res, message="Auth Token isn't Valid")
 
         temp_cookie.update(dict(res.cookies))
+        temp_cookie['ct0'] = ct0
         return await self.load_cookies(temp_cookie)
 
     @staticmethod
